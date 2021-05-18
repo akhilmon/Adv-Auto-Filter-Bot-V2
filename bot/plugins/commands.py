@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @FILMWORLDOFFICIA
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -10,10 +10,10 @@ from bot import Translation # pylint: disable=import-error
 async def start(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+        InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/FILMWORLDOFFICIA'),
+        InlineKeyboardButton('⭕CHANNEL⭕', url ='https://t.me/joinchat/VtTZc5al3Vt0te9_')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('🧿GROUP🧿', url='https://t.me/FILM_WORL')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
